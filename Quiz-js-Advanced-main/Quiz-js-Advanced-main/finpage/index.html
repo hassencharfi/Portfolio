@@ -1,0 +1,54 @@
+<!-- Site web
+    Name : Quiz-Training-H-G-C
+    Author : SINGO Yao Dieu Donné
+    Date : 11/07/2024-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- En tête du site web -->
+
+<head>
+    <!-- Les metas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titre du site -->
+    <title>Mon cv</title>
+
+    <!-- Liens vers les styles -> Utilisation du css -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--font family-->
+    <link rel="import" href="https://www.frontendmentor.io/pro?ref=style-guide">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<!-- Corps du site web (Ce qui apparait à utilisateur) -->
+
+<body>
+    <div class="card">
+        <div class="bg">
+            <div class="title"></div>
+            <div class="sucess">
+                <label class="container">
+                    <input type="checkbox" checked="checked">
+                    <div class="checkmark"></div>
+                </label>
+                <p>Merci pour votre participation a ce quiz. Nous espérons vous revoir bientôt.</p>
+                 <button id="returnButton">Retour à mon CV</button>
+            </div>
+        </div>
+        <div class="blob"></div>
+    </div>
+    <script>
+        // Redirect to CV site when the button is clicked
+        document.getElementById("returnButton").addEventListener("click", function() {
+            window.location.href = "file:///C:/Users/HASSEN/web1/Portfolio-main/Portfolio-main/index.html";  // Replace with your actual CV site URL
+        });
+    </script>
+</body>
+
+</html>
